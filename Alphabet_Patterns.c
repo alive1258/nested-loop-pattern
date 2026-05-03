@@ -7,9 +7,9 @@ int main()
 
     for (int i = 1; i <= n; i++)
     {
-        for (int j = 1; j <= i; j++)
+        for (char ch = 'A'; ch < 'A' + i; ch++)
         {
-            printf("%d ", i);
+            printf("%c", ch);
         }
         printf("\n");
     }
